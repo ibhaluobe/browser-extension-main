@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Extension</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="image/logo.svg" alt="logo">
+    </div>
+    <div id="theme-toggle">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+    </div>
+</header>
+<section>
+    <h2>Extension List</h2>
+    <nav>
+        <ul>
+            <li><a href="#" id="filter-all">All</a></li>
+            <li><a href="#" id="filter-active">Active</a></li>
+            <li><a href="#" id="filter-inactive">Inactive</a></li>
+        </ul>
+    </nav>
+</section>
+<main>
+    <div class="category extension-active">
+        <div class="category1">
+            <img src="image/logo-devlens.svg" alt="dev-lens">
+            <p><span>DevLens</span> <br> Quickly inspect page layout and visualize elements boundaries</p>
+        </div>
+        <div class="category2">
+            <button>Remove</button> 
+            <i class="fa-solid fa-toggle-on toggle-icon all"></i>
+            <i class="fa-solid fa-toggle-off toggle-icon"></i>
+        </div>
+    </div>
+    <div class="category extension-active">
+        <div class="category1">
+            <img src="image/logo-style-spy.svg" alt="StyleSpy">
+            <p><span>StyleSpy</span> <br> Instantly analyze and copy CSS from any webpage element.</p>
+        </div>
+        <div class="category2">
+            <button>Remove</button>
+            <i class="fa-solid fa-toggle-on toggle-icon all"></i>
+            <i class="fa-solid fa-toggle-off toggle-icon"></i>
+        </div>
+    </div>
+    <div class="category">
+        <div class="category1">
+            <img src="image/logo-speed-boost.svg" alt="SpeedBoost">
+            <p><span>SpeedBoost</span> <br> Optimizes browser resource usage to accelerate page loading. </p>
+        </div>
+        <div class="category2">
+            <button>Remove</button>
+            <i class="fa-solid fa-toggle-on toggle-icon all"></i>
+            <i class="fa-solid fa-toggle-off toggle-icon"></i>
+        </div>
+    </div>
+    <div class="category extension-active">
+        <div class="category1">
+            <img src="image/logo-json-wizard.svg" alt="JSONWizard">
+            <p><span>JSONWizard</span> <br> Formats, validates and prettifies JSON responses in-browser.</p>
+        </div>
+        <div class="category2">
+            <button>Remove</button>
+            <i class="fa-solid fa-toggle-on toggle-icon all"></i>
+            <i class="fa-solid fa-toggle-off toggle-icon"></i>
+        </div>
+    </div>
+    <div class="category extension-active">
+        <div class="category1">
+            <img src="image/logo-tab-master-pro.svg" alt="TabMaster">
+            <p><span>TabMaster Pro</span> <br> Organizes browser tabs into groups and sessions.</p>
+        </div>
+        <div class="category2">
+            <button>Remove</button>
+            <i class="fa-solid fa-toggle-on toggle-icon all"></i>
+            <i class="fa-solid fa-toggle-off toggle-icon"></i>
+        </div>
+    </div>
+    <div class="category">
+        <div class="category1">
+            <img src="image/logo-viewport-buddy.svg" alt="viewport">
+            <p><span>ViewportBuddy</span> <br> Stimulates various screen resolutions directly within the browser.</p>
+        </div>
+        <div class="category2">
+            <button>Remove</button>
+            <i class="fa-solid fa-toggle-on toggle-icon all"></i>
+            <i class="fa-solid fa-toggle-off toggle-icon"></i>
+        </div>
+    </div>
+    <div class="category extension-active">
+        <div class="category1">
+            <img src="image/logo-markup-notes.svg" alt="Markup">
+            <p><span>Markup Notes</span> <br> Enables annotation and notes directly onto webpages for collaborative debugging</p>
+        </div>
+        <div class="category2">
+            <button>Remove</button>
+            <i class="fa-solid fa-toggle-on toggle-icon all"></i>
+            <i class="fa-solid fa-toggle-off toggle-icon"></i>
+        </div>
+    </div>
+    <div class="category">
+        <div class="category1">
+            <img src="image/logo-grid-guides.svg" alt="GridGuides">
+            <p><span>GridGuides</span> <br> Overlay customizable grids and alignment guides on any webpage.</p>
+        </div>
+        <div class="category2">
+            <button>Remove</button>
+            <i class="fa-solid fa-toggle-on toggle-icon all"></i>
+            <i class="fa-solid fa-toggle-off toggle-icon"></i>
+        </div>
+    </div>
+    <div class="category extension-active">
+        <div class="category1">
+            <img src="image/logo-palette-picker.svg" alt="Palette">
+            <p><span>Palette Picker</span> <br> Instantly extracts color palettes from any webpage.</p>
+        </div>
+        <div class="category2">
+            <button>Remove</button>
+            <i class="fa-solid fa-toggle-on toggle-icon all"></i>
+            <i class="fa-solid fa-toggle-off toggle-icon"></i>
+        </div>
+    </div>
+    <div class="category extension-active">
+        <div class="category1">
+            <img src="image/logo-link-checker.svg" alt="LinkChecker">
+            <p><span>LinkChecker</span> <br> Scans and highlights broken links on any page,</p>
+        </div>
+        <div class="category2">
+            <button>Remove</button>
+            <i class="fa-solid fa-toggle-on toggle-icon all"></i>
+            <i class="fa-solid fa-toggle-off toggle-icon"></i>
+        </div>
+    </div>
+    <div class="category">
+        <div class="category1">
+            <img src="image/logo-dom-snapshot.svg" alt="DOM-snapshot">
+            <p><span>DOM Snapshot</span> <br> Capture and export DOM structures quickly.</p>
+        </div>
+        <div class="category2">
+            <button>Remove</button>
+            <i class="fa-solid fa-toggle-on toggle-icon all"></i>
+            <i class="fa-solid fa-toggle-off toggle-icon"></i>
+        </div>
+    </div>
+    <div class="category extension-active">
+        <div class="category1">
+            <img src="image/logo-console-plus.svg" alt="console">
+            <p><span>ConsolePlus</span> <br> Enhanced developer console with advanced filtering and logging. </p>
+        </div>
+        <div class="category2">
+            <button>Remove</button>
+            <i class="fa-solid fa-toggle-on toggle-icon all"></i>
+            <i class="fa-solid fa-toggle-off toggle-icon"></i>
+        </div>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
